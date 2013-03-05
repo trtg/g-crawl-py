@@ -134,4 +134,3 @@ class Crawl(object):
         '''Return true here if this request should count toward the 
         max number of pages.'''
         return page.status not in (301, 302, 303, 307)
-    
